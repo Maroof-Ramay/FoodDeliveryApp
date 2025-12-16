@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "RNVectorIconsSpec_autolinked_build",
+		"source" : "/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni"
+	}
+}

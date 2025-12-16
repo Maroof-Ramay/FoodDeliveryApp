@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fooddeliveryapp-mergeDebugResources-41:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ef7f1f226338ecad8968531fa1f7f00e/transformed/appcompat-1.7.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

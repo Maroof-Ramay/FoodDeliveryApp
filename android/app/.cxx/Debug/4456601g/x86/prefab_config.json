@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "prefabPath": "/Users/ninjaassassin/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar",
+  "packages": [
+    "/Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/prefab",
+    "/Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fa4252b025a2573209f0d84794642614/transformed/hermes-android-0.82.1-debug/prefab",
+    "/Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3adb6efc9a2445a38733a5eba88c31ec/transformed/fbjni-0.7.0/prefab"
+  ]
+}

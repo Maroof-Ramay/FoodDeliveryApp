@@ -1,0 +1,4 @@
+/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/.cxx/Debug/4456601g/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/.cxx/Debug/4456601g/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/.cxx/Debug/4456601g/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/.cxx/Debug/4456601g/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

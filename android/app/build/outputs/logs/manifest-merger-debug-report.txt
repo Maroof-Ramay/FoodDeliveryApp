@@ -1,0 +1,428 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:5:5-26:19
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:18:5-22:19
+MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:18:5-22:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/12aa5927dda26c09f4da562faa990a58/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/12aa5927dda26c09f4da562faa990a58/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f3a554c1a9441f2f96b48d19be636439/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f3a554c1a9441f2f96b48d19be636439/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4509c6df82a2050e9604396f9bfa2d80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4509c6df82a2050e9604396f9bfa2d80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:13:7-33
+	android:label
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:7:7-39
+	android:roundIcon
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:9:7-52
+	android:icon
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:8:7-41
+	android:allowBackup
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:10:7-34
+	android:theme
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:11:7-38
+	android:name
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:6:7-38
+	android:usesCleartextTraffic
+		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:12:7-61
+manifest
+ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-pager-view] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3ec9f7434e0ea478e5a5347b69449b3e/transformed/recyclerview-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fa18f71f9b4bc8a66f009010ce78469e/transformed/viewpager2-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d8ce08bb8eaf5c785f5064251568e0bc/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/12aa5927dda26c09f4da562faa990a58/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ef7f1f226338ecad8968531fa1f7f00e/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.6.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/01fbb5df9f3c0e25ab46baf4fdb37ba0/transformed/fragment-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/645d64c04512d9d658b6be6e6d4fb898/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/be34308a31ed13c6309bfcfb7da1dfeb/transformed/fresco-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3aeba892df90e7eb8d95ffcfacef660b/transformed/imagepipeline-okhttp3-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/783e0b9586238e908079204e307b9d73/transformed/drawee-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2278febf4baa3d7bd644f67a7814c099/transformed/nativeimagefilters-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/90e6fb04ce72d316023a5937d772c948/transformed/memory-type-native-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/414d8d250e798e1ce62ec439a589fef9/transformed/memory-type-java-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/b46a37f544cc51e687a11080c5683eac/transformed/imagepipeline-native-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f62c661f103a3da26df5cd057e15f91a/transformed/memory-type-ashmem-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4ac0d71c31f49da707cda5f45379af40/transformed/imagepipeline-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1735947608048da62210b64eab568108/transformed/nativeimagetranscoder-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/a4cf0b339292aae942ccc71c5f29e16d/transformed/imagepipeline-base-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:urimod:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0d1a5ea013fddd81e6687a92ffbe7ab7/transformed/urimod-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-source:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/81f008d34bcd5a2c62b712100c769942/transformed/vito-source-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/57ef50fd826b9876db598399e8c9b313/transformed/middleware-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2fe8b3995aae8fea3ad04b7c4f754729/transformed/ui-common-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c43370e236c23b858889a93f3b1c11de/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/6b16be93ce0775dbfd441400d604f32b/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d38240f111a6d1a062b993b4013b7cf6/transformed/autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0da56606cb66ac0fcc39d4eb4dee5d2f/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/eb616da5755273edee8502650d6ae716/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/8de3aa879b2570d03d677136b3da9b66/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e7f1c70bf2dc1dcd24a62ee2e5c80725/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2e981ae5067dbb57e26f82faaa295e64/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/5bdee2c684dfa5120367b99586bfc96c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4337a06f13d764c6447b799226cd5405/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e08fe949247ceb175faf05ef8c1cea9e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [com.facebook.fresco:soloader:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c2a710545ffa488614336b46a7ee7fb4/transformed/soloader-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/828a5f98dd5c0bd5a2fbc65a1b943f37/transformed/fbcore-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fd9f2fd657375a2ebf6237a603dcf76b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2138442aa4d894096745f1f4289be9cf/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/9fb0eabf379488815aab60fc08a62210/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e13eeef22003d6f6d1cfeadf8f22f462/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2ec31c4d39d9ca8de0b5a5091a05ecd8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/556a2db88c74b19ae0a5678041f03fcb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/14ea0c1df986af220a1f00a8c1ffd7b0/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/871d0845fb005e64714d16505841782e/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0cd5105decea477ac6d29bf0d324af27/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/508a233429e5f97ce17c66f73de73daa/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/835c22ed2262add2648a9db9ec5b6707/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/61e7db51f223a76cb0d617df0f908a90/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/5a5f164cf6b86d93c5768ef4d7cd38fa/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/11ffc41db6bfdd73f73d8890a89a389d/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/81fd8931c2d6893dc5544b79e18c168f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c0af9e705b750140cc4f8b803dfb7786/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/28792072aac5fc274472aa507d0ac1e5/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-core:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1b61c7c9fd0495bee3948675896e9834/transformed/ui-core-3.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:hermes-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fa4252b025a2573209f0d84794642614/transformed/hermes-android-0.82.1-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f3a554c1a9441f2f96b48d19be636439/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d3fd775dd978a622d9beda7fd94bba1f/transformed/tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4509c6df82a2050e9604396f9bfa2d80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/02abf49478914c5334634e4a859a7beb/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/6ab3ba3da8bf6b266a5ab7fc15c6f696/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e660411a4f404f27824f00386ae858d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/9affd1ea877030638dd86c6b30756c02/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/57e67ad27a97beb7dfbaae0144fea33d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/044474b043ee6ebff40c3394eeb4b437/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab2b6309e28065536c4d384cb3c78c99/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3adb6efc9a2445a38733a5eba88c31ec/transformed/fbjni-0.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:3:22-64
+activity#com.fooddeliveryapp.MainActivity
+ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:14:7-25:18
+	android:label
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:16:9-41
+	android:launchMode
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:18:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:19:9-51
+	android:exported
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:20:9-32
+	android:configChanges
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:17:9-118
+	android:name
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:15:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
+action#android.intent.action.MAIN
+ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:22:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:23:13-73
+	android:name
+		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:23:23-70
+uses-sdk
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-pager-view] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-pager-view] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:10:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3ec9f7434e0ea478e5a5347b69449b3e/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3ec9f7434e0ea478e5a5347b69449b3e/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fa18f71f9b4bc8a66f009010ce78469e/transformed/viewpager2-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fa18f71f9b4bc8a66f009010ce78469e/transformed/viewpager2-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d8ce08bb8eaf5c785f5064251568e0bc/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d8ce08bb8eaf5c785f5064251568e0bc/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/12aa5927dda26c09f4da562faa990a58/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/12aa5927dda26c09f4da562faa990a58/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ef7f1f226338ecad8968531fa1f7f00e/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ef7f1f226338ecad8968531fa1f7f00e/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/01fbb5df9f3c0e25ab46baf4fdb37ba0/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/01fbb5df9f3c0e25ab46baf4fdb37ba0/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/645d64c04512d9d658b6be6e6d4fb898/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/645d64c04512d9d658b6be6e6d4fb898/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/be34308a31ed13c6309bfcfb7da1dfeb/transformed/fresco-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/be34308a31ed13c6309bfcfb7da1dfeb/transformed/fresco-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3aeba892df90e7eb8d95ffcfacef660b/transformed/imagepipeline-okhttp3-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3aeba892df90e7eb8d95ffcfacef660b/transformed/imagepipeline-okhttp3-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/783e0b9586238e908079204e307b9d73/transformed/drawee-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/783e0b9586238e908079204e307b9d73/transformed/drawee-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2278febf4baa3d7bd644f67a7814c099/transformed/nativeimagefilters-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2278febf4baa3d7bd644f67a7814c099/transformed/nativeimagefilters-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/90e6fb04ce72d316023a5937d772c948/transformed/memory-type-native-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/90e6fb04ce72d316023a5937d772c948/transformed/memory-type-native-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/414d8d250e798e1ce62ec439a589fef9/transformed/memory-type-java-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/414d8d250e798e1ce62ec439a589fef9/transformed/memory-type-java-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/b46a37f544cc51e687a11080c5683eac/transformed/imagepipeline-native-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/b46a37f544cc51e687a11080c5683eac/transformed/imagepipeline-native-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f62c661f103a3da26df5cd057e15f91a/transformed/memory-type-ashmem-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f62c661f103a3da26df5cd057e15f91a/transformed/memory-type-ashmem-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4ac0d71c31f49da707cda5f45379af40/transformed/imagepipeline-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4ac0d71c31f49da707cda5f45379af40/transformed/imagepipeline-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1735947608048da62210b64eab568108/transformed/nativeimagetranscoder-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1735947608048da62210b64eab568108/transformed/nativeimagetranscoder-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/a4cf0b339292aae942ccc71c5f29e16d/transformed/imagepipeline-base-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/a4cf0b339292aae942ccc71c5f29e16d/transformed/imagepipeline-base-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:urimod:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0d1a5ea013fddd81e6687a92ffbe7ab7/transformed/urimod-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:urimod:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0d1a5ea013fddd81e6687a92ffbe7ab7/transformed/urimod-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-source:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/81f008d34bcd5a2c62b712100c769942/transformed/vito-source-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-source:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/81f008d34bcd5a2c62b712100c769942/transformed/vito-source-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/57ef50fd826b9876db598399e8c9b313/transformed/middleware-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/57ef50fd826b9876db598399e8c9b313/transformed/middleware-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2fe8b3995aae8fea3ad04b7c4f754729/transformed/ui-common-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2fe8b3995aae8fea3ad04b7c4f754729/transformed/ui-common-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c43370e236c23b858889a93f3b1c11de/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c43370e236c23b858889a93f3b1c11de/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/6b16be93ce0775dbfd441400d604f32b/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/6b16be93ce0775dbfd441400d604f32b/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d38240f111a6d1a062b993b4013b7cf6/transformed/autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d38240f111a6d1a062b993b4013b7cf6/transformed/autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0da56606cb66ac0fcc39d4eb4dee5d2f/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0da56606cb66ac0fcc39d4eb4dee5d2f/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/eb616da5755273edee8502650d6ae716/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/eb616da5755273edee8502650d6ae716/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/8de3aa879b2570d03d677136b3da9b66/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/8de3aa879b2570d03d677136b3da9b66/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e7f1c70bf2dc1dcd24a62ee2e5c80725/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e7f1c70bf2dc1dcd24a62ee2e5c80725/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2e981ae5067dbb57e26f82faaa295e64/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2e981ae5067dbb57e26f82faaa295e64/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/5bdee2c684dfa5120367b99586bfc96c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/5bdee2c684dfa5120367b99586bfc96c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4337a06f13d764c6447b799226cd5405/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4337a06f13d764c6447b799226cd5405/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e08fe949247ceb175faf05ef8c1cea9e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e08fe949247ceb175faf05ef8c1cea9e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [com.facebook.fresco:soloader:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c2a710545ffa488614336b46a7ee7fb4/transformed/soloader-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c2a710545ffa488614336b46a7ee7fb4/transformed/soloader-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/828a5f98dd5c0bd5a2fbc65a1b943f37/transformed/fbcore-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/828a5f98dd5c0bd5a2fbc65a1b943f37/transformed/fbcore-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fd9f2fd657375a2ebf6237a603dcf76b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fd9f2fd657375a2ebf6237a603dcf76b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2138442aa4d894096745f1f4289be9cf/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2138442aa4d894096745f1f4289be9cf/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/9fb0eabf379488815aab60fc08a62210/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/9fb0eabf379488815aab60fc08a62210/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e13eeef22003d6f6d1cfeadf8f22f462/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e13eeef22003d6f6d1cfeadf8f22f462/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2ec31c4d39d9ca8de0b5a5091a05ecd8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/2ec31c4d39d9ca8de0b5a5091a05ecd8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/556a2db88c74b19ae0a5678041f03fcb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/556a2db88c74b19ae0a5678041f03fcb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/14ea0c1df986af220a1f00a8c1ffd7b0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/14ea0c1df986af220a1f00a8c1ffd7b0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/871d0845fb005e64714d16505841782e/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/871d0845fb005e64714d16505841782e/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0cd5105decea477ac6d29bf0d324af27/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0cd5105decea477ac6d29bf0d324af27/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/508a233429e5f97ce17c66f73de73daa/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/508a233429e5f97ce17c66f73de73daa/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/835c22ed2262add2648a9db9ec5b6707/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/835c22ed2262add2648a9db9ec5b6707/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/61e7db51f223a76cb0d617df0f908a90/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/61e7db51f223a76cb0d617df0f908a90/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/5a5f164cf6b86d93c5768ef4d7cd38fa/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/5a5f164cf6b86d93c5768ef4d7cd38fa/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/11ffc41db6bfdd73f73d8890a89a389d/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/11ffc41db6bfdd73f73d8890a89a389d/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/81fd8931c2d6893dc5544b79e18c168f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/81fd8931c2d6893dc5544b79e18c168f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c0af9e705b750140cc4f8b803dfb7786/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c0af9e705b750140cc4f8b803dfb7786/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/28792072aac5fc274472aa507d0ac1e5/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/28792072aac5fc274472aa507d0ac1e5/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-core:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1b61c7c9fd0495bee3948675896e9834/transformed/ui-core-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-core:3.6.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1b61c7c9fd0495bee3948675896e9834/transformed/ui-core-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fa4252b025a2573209f0d84794642614/transformed/hermes-android-0.82.1-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/fa4252b025a2573209f0d84794642614/transformed/hermes-android-0.82.1-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f3a554c1a9441f2f96b48d19be636439/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f3a554c1a9441f2f96b48d19be636439/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d3fd775dd978a622d9beda7fd94bba1f/transformed/tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/d3fd775dd978a622d9beda7fd94bba1f/transformed/tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4509c6df82a2050e9604396f9bfa2d80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/4509c6df82a2050e9604396f9bfa2d80/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/02abf49478914c5334634e4a859a7beb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/02abf49478914c5334634e4a859a7beb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/6ab3ba3da8bf6b266a5ab7fc15c6f696/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/6ab3ba3da8bf6b266a5ab7fc15c6f696/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e660411a4f404f27824f00386ae858d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/e660411a4f404f27824f00386ae858d1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/9affd1ea877030638dd86c6b30756c02/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/9affd1ea877030638dd86c6b30756c02/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/57e67ad27a97beb7dfbaae0144fea33d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/57e67ad27a97beb7dfbaae0144fea33d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/044474b043ee6ebff40c3394eeb4b437/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/044474b043ee6ebff40c3394eeb4b437/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab2b6309e28065536c4d384cb3c78c99/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab2b6309e28065536c4d384cb3c78c99/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3adb6efc9a2445a38733a5eba88c31ec/transformed/fbjni-0.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3adb6efc9a2445a38733a5eba88c31ec/transformed/fbjni-0.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:16:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:20:13-77
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f3a554c1a9441f2f96b48d19be636439/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/f3a554c1a9441f2f96b48d19be636439/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/1568ddf334d37127fb4a68743fbbddda/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/ab925fe5a08d7021799510e9bae653ca/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.fooddeliveryapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.fooddeliveryapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/bdcbcd693578449afcc289dbb4253430/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+meta-data#com.facebook.soloader.enabled
+ADDED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:13:13-57
