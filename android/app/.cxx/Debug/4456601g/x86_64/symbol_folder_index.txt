@@ -1,1 +1,0 @@
-/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/build/intermediates/cxx/Debug/4456601g/obj/x86_64
