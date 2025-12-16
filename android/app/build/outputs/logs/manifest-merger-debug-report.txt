@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:5:5-26:19
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:5:5-26:19
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:5:5-26:19
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:5:5-26:19
 MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:18:5-22:19
 MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:18:5-22:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
@@ -23,35 +23,36 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ninj
 MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:11:5-15:19
 MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:11:5-15:19
 	android:extractNativeLibs
-		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/0ec89170284fab4520c1897be1f3e5e8/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:13:7-33
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:13:7-33
 	android:label
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:7:7-39
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:7:7-39
 	android:roundIcon
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:9:7-52
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:9:7-52
 	android:icon
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:8:7-41
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:8:7-41
 	android:allowBackup
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:10:7-34
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:10:7-34
 	android:theme
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:11:7-38
 	android:name
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:6:7-38
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:6:7-38
 	android:usesCleartextTraffic
-		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:12:7-61
+		INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:12:7-61
 manifest
-ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
-MERGED from [:react-native-pager-view] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-screens] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-pager-view] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-get-random-values] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-get-random-values/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3ec9f7434e0ea478e5a5347b69449b3e/transformed/recyclerview-1.3.1/AndroidManifest.xml:17:1-22:12
@@ -125,53 +126,55 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/ninjaassassin/.gradle
 MERGED from [com.facebook.fbjni:fbjni:0.7.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/3adb6efc9a2445a38733a5eba88c31ec/transformed/fbjni-0.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:2:1-17:12
 	package
-		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:3:5-67
+ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:3:22-64
 activity#com.fooddeliveryapp.MainActivity
-ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:14:7-25:18
+ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:14:7-25:18
 	android:label
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:16:9-41
 	android:launchMode
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:18:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:19:9-51
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:19:9-51
 	android:exported
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:20:9-32
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:20:9-32
 	android:configChanges
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:17:9-118
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:17:9-118
 	android:name
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:15:9-37
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:15:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
+ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:22:13-65
+ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:22:21-62
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:23:13-73
+ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:23:23-70
+		ADDED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml:23:23-70
 uses-sdk
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-pager-view] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-pager-view] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-pager-view] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-pager-view] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-get-random-values] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-get-random-values/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-get-random-values] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-get-random-values/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:10:5-44
 MERGED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:10:5-44
 MERGED from [com.google.android.material:material:1.12.0] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/c20701d2705133bedef2ccfc06b8e5c3/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
@@ -317,9 +320,9 @@ MERGED from [com.facebook.fbjni:fbjni:0.7.0] /Users/ninjaassassin/.gradle/caches
 MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.12.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/7ee8690f7f24584a4a5f745d81ef1cd0/transformed/soloader-0.12.1/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from [com.facebook.react:react-android:0.82.1] /Users/ninjaassassin/.gradle/caches/9.0.0/transforms/450f06714cb7d2e4199dde38aacc5219/transformed/react-android-0.82.1-debug/AndroidManifest.xml:16:5-78
 	android:name

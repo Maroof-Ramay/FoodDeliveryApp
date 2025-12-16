@@ -20,6 +20,49 @@ export default function SignUp() {
     const [rePassword, setRePassword] = useState("devil890");
     const [loading, setLoading] = useState(false);
     const [errorMsg, setErrorMsg] = useState("");
+    const handleSignUp = async () => {
+        // Basic validation
+        if (!name || !email || !password || !rePassword) {
+            setErrorMsg("All fields are required");
+            return;
+        }
+    
+        if (password !== rePassword) {
+            setErrorMsg("Passwords do not match");
+            return;
+        }
+    
+        setLoading(true);
+        setErrorMsg("");
+    
+        try {
+            const response = await fetch("http://localhost:3000/signup", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    email,
+                    password,
+                }),
+            });
+    
+            const data = await response.json();
+    
+            if (!response.ok) {
+                setErrorMsg(data.message || "Something went wrong");
+            } else {
+                console.log("Token:", data.token);
+                // Optionally navigate to login or home screen
+                navigation.navigate("Login"); 
+            }
+        } catch (error) {
+            console.error(error);
+            setErrorMsg("Network error");
+        } finally {
+            setLoading(false);
+        }
+    };
     return (
         <View style={{ flex: 1, backgroundColor: Colors.backgroundColor }}>
 
@@ -49,7 +92,8 @@ export default function SignUp() {
                         onChangeText={setRePassword}
                         label="Re-Type Password"
                     />
-                    <TouchableOpacity style={{ marginTop: 30 }} >
+                    {errorMsg ? <Text style={styles.errorText}>{errorMsg}</Text> : null}
+                    <TouchableOpacity style={{ marginTop: 30 }} onPress={handleSignUp} >
                         <OrangeButton title="Sign Up"></OrangeButton>
                     </TouchableOpacity>
                 </ScrollView>

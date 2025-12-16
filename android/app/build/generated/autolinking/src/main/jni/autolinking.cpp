@@ -7,6 +7,7 @@
  */
 
 #include "autolinking.h"
+#include <RNGetRandomValuesSpec.h>
 #include <pagerview.h>
 #include <react/renderer/components/pagerview/ComponentDescriptors.h>
 #include <safeareacontext.h>
@@ -19,6 +20,10 @@ namespace facebook {
 namespace react {
 
 std::shared_ptr<TurboModule> autolinking_ModuleProvider(const std::string moduleName, const JavaTurboModule::InitParams &params) {
+auto module_RNGetRandomValuesSpec = RNGetRandomValuesSpec_ModuleProvider(moduleName, params);
+if (module_RNGetRandomValuesSpec != nullptr) {
+return module_RNGetRandomValuesSpec;
+}
 auto module_pagerview = pagerview_ModuleProvider(moduleName, params);
 if (module_pagerview != nullptr) {
 return module_pagerview;

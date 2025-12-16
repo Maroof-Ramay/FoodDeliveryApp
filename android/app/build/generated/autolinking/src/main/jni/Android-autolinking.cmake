@@ -6,12 +6,14 @@ set(CMAKE_VERBOSE_MAKEFILE on)
 # or link against a old prefab target (this is needed for React Native 0.76 on).
 set(REACTNATIVE_MERGED_SO true)
 
-add_subdirectory("/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/" pagerview_autolinked_build)
-add_subdirectory("/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/src/main/jni/" safeareacontext_autolinked_build)
-add_subdirectory("/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-screens/android/src/main/jni/" rnscreens_autolinked_build)
-add_subdirectory("/Users/ninjaassassin/Projects/React-Native-Projects/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/" RNVectorIconsSpec_autolinked_build)
+add_subdirectory("/Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-get-random-values/android/build/generated/source/codegen/jni/" RNGetRandomValuesSpec_autolinked_build)
+add_subdirectory("/Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/" pagerview_autolinked_build)
+add_subdirectory("/Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-safe-area-context/android/src/main/jni/" safeareacontext_autolinked_build)
+add_subdirectory("/Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-screens/android/src/main/jni/" rnscreens_autolinked_build)
+add_subdirectory("/Users/ninjaassassin/Documents/GitHub/FoodDeliveryApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/" RNVectorIconsSpec_autolinked_build)
 
 set(AUTOLINKED_LIBRARIES
+  react_codegen_RNGetRandomValuesSpec
   react_codegen_pagerview
   react_codegen_safeareacontext
   react_codegen_rnscreens
