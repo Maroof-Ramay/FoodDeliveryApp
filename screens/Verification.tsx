@@ -23,11 +23,59 @@ export default function Verification({ route }: { route: VerificationRouteProp }
 
     const [secondsLeft, setSecondsLeft] = useState(0); // start at 0
     const [timerActive, setTimerActive] = useState(false); // control interval
+    const [loading, setLoading] = useState(false);
+    const [errorMsg, setErrorMsg] = useState("");
 
     const sendOTP = async () => {
         // Simulate sending OTP and start timer
         setSecondsLeft(60);
         setTimerActive(true);
+    };
+
+    const handleVerify = async () => {
+        if (code.length !== 4) {
+            setErrorMsg("Please enter the 4-digit code");
+            return;
+        }
+
+        setLoading(true);
+        setErrorMsg("");
+
+        try {
+            console.log("Verifying OTP with:", { email: emailAddress, otp: code });
+            const response = await fetch("http://192.168.13.101:3000/verify-otp", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    email: emailAddress,
+                    otp: code,
+                }),
+            });
+
+            const rawText = await response.text();  // <-- get the raw response
+            console.log("Raw verify-otp response:", rawText);
+
+            let data: any = {};
+            try {
+            data = rawText ? JSON.parse(rawText) : {};
+            } catch (e) {
+            console.warn("Failed to parse verify-otp JSON:", e, "Raw response:", rawText);
+            }
+            if (!response.ok) {
+                setErrorMsg(data.message || "Invalid code");
+                return;
+            }
+
+            // On success, go to ResetPassword (or wherever you want)
+            navigation.navigate("ResetPassword");
+        } catch (error) {
+            console.error(error);
+            setErrorMsg("Network error");
+        } finally {
+            setLoading(false);
+        }
     };
 
     useEffect(() => {
@@ -76,14 +124,16 @@ export default function Verification({ route }: { route: VerificationRouteProp }
                     </View>
                 </View>
                 <CodeInput code={code} setCode={setCode} length={4} />
+                {errorMsg ? (
+                    <Text style={styles.errorText}>{errorMsg}</Text>
+                ) : null}
 
-
-                <TouchableOpacity style={{ marginTop: 30 }}
-                    onPress={() => navigation.navigate("ResetPassword")}
+                <TouchableOpacity
+                    style={{ marginTop: 30 }}
+                    onPress={handleVerify}
+                    disabled={loading}
                 >
-                    <OrangeButton title="Verify">
-
-                    </OrangeButton>
+                    <OrangeButton title={loading ? "Verifying..." : "Verify"} />
                 </TouchableOpacity>
             </View>
         </View>
@@ -97,5 +147,10 @@ const styles = StyleSheet.create({
         borderTopRightRadius: 25,
         paddingVertical: 24,
         paddingHorizontal: 24,
-    }
+    },
+    errorText: {
+        color: "red",
+        marginTop: 10,
+        fontSize: 14,
+    },
 });

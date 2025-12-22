@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from "react-native";
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image, ActivityIndicator } from "react-native";
 import React, { useState } from "react";
 import { Colors } from "../constants/Colors";
 import AuthenticationTopView from "../components/AuthenticationTopView";
@@ -14,12 +14,56 @@ export default function Login() {
 
     const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("marooframay@gmail.com");
+    const [password, setPassword] = useState("devil890");
+    const [loading, setLoading] = useState(false);
+    const [errorMsg, setErrorMsg] = useState("");
     const [remember, setRemember] = useState(false);
     const rememberImage = remember
         ? require("../assets/checkBox.png")
         : require("../assets/uncheckBox.png");
+
+    const handleLogin = async () => {
+        if (!email || !password) {
+            setErrorMsg("Email and password are required");
+            return;
+        }
+
+        setLoading(true);
+        setErrorMsg("");
+
+        try {
+            const response = await fetch("http://192.168.13.101:3000/login", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    email,
+                    password,
+                }),
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                setErrorMsg(data.message || "Invalid email or password");
+                return;
+            } else {
+                console.log("Token:", data.token);
+                // Optionally navigate to login or home screen
+                navigation.navigate("SignUp"); 
+            }
+
+            // TODO: navigate to your main/home screen when it's ready
+            // navigation.replace("OnBoarding");
+        } catch (error) {
+            console.error(error);
+            setErrorMsg("Network error");
+        } finally {
+            setLoading(false);
+        }
+    };
 
     return (
         <View style={{ flex: 1, backgroundColor: Colors.backgroundColor }}>
@@ -40,6 +84,9 @@ export default function Login() {
                         value={password}
                         onChangeText={setPassword}
                     />
+                    {errorMsg ? (
+                        <Text style={styles.errorText}>{errorMsg}</Text>
+                    ) : null}
                     <View style={{ justifyContent: "space-between", flexDirection: "row", alignItems: "center", marginVertical: 12 }}>
                         <View style={{ flexDirection: "row", alignItems: "center" }}>
                             <TouchableOpacity
@@ -60,12 +107,16 @@ export default function Login() {
                             </Text>
                         </TouchableOpacity>
                     </View>
-                    <TouchableOpacity style={{ marginTop: 30 }}
-                    // onPress={() => setRemember(!remember)}
+                    <TouchableOpacity
+                        style={{ marginTop: 30 }}
+                        onPress={handleLogin}
+                        disabled={loading}
                     >
-                        <OrangeButton title="Login">
-
-                        </OrangeButton>
+                        {loading ? (
+                            <ActivityIndicator color={Colors.orangeColor} />
+                        ) : (
+                            <OrangeButton title="Login" />
+                        )}
                     </TouchableOpacity>
                     <View style={{ justifyContent: "center", flexDirection: "row", gap: 11, marginVertical: 30 }}>
                         <Text style={{ fontSize: 16, fontWeight: "200", color: Colors.regularTextGrey }}>
@@ -118,5 +169,10 @@ const styles = StyleSheet.create({
     socialIcons: {
         width: 62,
         height: 62
-    }
+    },
+    errorText: {
+        color: "red",
+        marginTop: 10,
+        fontSize: 14,
+    },
 });

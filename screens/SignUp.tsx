@@ -36,7 +36,7 @@ export default function SignUp() {
         setErrorMsg("");
     
         try {
-            const response = await fetch("http://localhost:3000/signup", {
+            const response = await fetch("http://192.168.13.101:3000/signup", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -48,13 +48,12 @@ export default function SignUp() {
             });
     
             const data = await response.json();
-    
             if (!response.ok) {
                 setErrorMsg(data.message || "Something went wrong");
             } else {
                 console.log("Token:", data.token);
                 // Optionally navigate to login or home screen
-                navigation.navigate("Login"); 
+                navigation.navigate("Verification",{emailAddress: "marooframay@gmail.com"}); 
             }
         } catch (error) {
             console.error(error);
