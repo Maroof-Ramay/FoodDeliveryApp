@@ -14,8 +14,8 @@ export type RootStackParamList = {
     Login: undefined;
     OnBoarding: undefined;
     ForgotPassword: undefined;
-    Verification: { emailAddress: string };
-    ResetPassword: undefined;
+    Verification: { emailAddress: string, source: "signup" | "forgot" };
+    ResetPassword: { emailAddress: string };
     SignUp: undefined;
 };
 

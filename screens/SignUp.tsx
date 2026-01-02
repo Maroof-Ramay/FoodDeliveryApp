@@ -10,6 +10,8 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "./navigation/MainNavigator";
 
+import { BASE_URL } from "./config/Api";
+
 export default function SignUp() {
 
     const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
@@ -35,8 +37,11 @@ export default function SignUp() {
         setLoading(true);
         setErrorMsg("");
     
+        const url = `${BASE_URL}/signup`;
+        console.log("Calling API URL:", url); // <-- log the URL
+
         try {
-            const response = await fetch("http://192.168.13.101:3000/signup", {
+            const response = await fetch(`${BASE_URL}/signup`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -53,7 +58,7 @@ export default function SignUp() {
             } else {
                 console.log("Token:", data.token);
                 // Optionally navigate to login or home screen
-                navigation.navigate("Verification",{emailAddress: "marooframay@gmail.com"}); 
+                navigation.navigate("Verification",{emailAddress: "marooframay@gmail.com", source: "signup"}); 
             }
         } catch (error) {
             console.error(error);

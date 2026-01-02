@@ -10,13 +10,16 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../screens/navigation/MainNavigator";
 import { RouteProp } from "@react-navigation/native";
+
+import { BASE_URL } from "./config/Api";
+
 type VerificationRouteProp = RouteProp<RootStackParamList, "Verification">;
 
 
 
 export default function Verification({ route }: { route: VerificationRouteProp }) {
 
-    const { emailAddress } = route.params;
+    const { emailAddress, source } = route.params;
 
     const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
     const [code, setCode] = useState("");
@@ -27,10 +30,49 @@ export default function Verification({ route }: { route: VerificationRouteProp }
     const [errorMsg, setErrorMsg] = useState("");
 
     const sendOTP = async () => {
-        // Simulate sending OTP and start timer
-        setSecondsLeft(60);
-        setTimerActive(true);
+        try {
+            setLoading(true);
+            setErrorMsg("");
+    
+            console.log("Resending OTP to:", emailAddress);
+    
+            const response = await fetch(`${BASE_URL}/resend-otp`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    email: emailAddress,
+                }),
+            });
+    
+            const rawText = await response.text();
+            console.log("Raw resend-otp response:", rawText);
+    
+            let data: any = {};
+            try {
+                data = rawText ? JSON.parse(rawText) : {};
+            } catch (e) {
+                console.warn("Failed to parse resend-otp JSON:", e, rawText);
+            }
+    
+            if (!response.ok) {
+                setErrorMsg(data.message || "Failed to resend code");
+                return;
+            }
+    
+            // ✅ Restart timer ONLY on success
+            setSecondsLeft(60);
+            setTimerActive(true);
+    
+        } catch (error) {
+            console.error(error);
+            setErrorMsg("Network error");
+        } finally {
+            setLoading(false);
+        }
     };
+    
 
     const handleVerify = async () => {
         if (code.length !== 4) {
@@ -43,7 +85,7 @@ export default function Verification({ route }: { route: VerificationRouteProp }
 
         try {
             console.log("Verifying OTP with:", { email: emailAddress, otp: code });
-            const response = await fetch("http://192.168.13.101:3000/verify-otp", {
+            const response = await fetch(`${BASE_URL}/verify-otp`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -67,9 +109,14 @@ export default function Verification({ route }: { route: VerificationRouteProp }
                 setErrorMsg(data.message || "Invalid code");
                 return;
             }
-
-            // On success, go to ResetPassword (or wherever you want)
-            navigation.navigate("ResetPassword");
+            console.log("Source:", source);
+            if (source === "signup") {
+                navigation.replace("Login");
+            } else if (source === "forgot") {
+                navigation.navigate("ResetPassword", {emailAddress: emailAddress});
+            } else {
+                navigation.navigate("SignUp");
+            }
         } catch (error) {
             console.error(error);
             setErrorMsg("Network error");
@@ -92,13 +139,11 @@ export default function Verification({ route }: { route: VerificationRouteProp }
         return () => clearInterval(interval);
     }, [secondsLeft, timerActive]);
 
-
-
     useEffect(() => {
-        sendOTP();
-    }, [emailAddress]);
-
-
+        // Only start timer when screen mounts
+        setSecondsLeft(60);   // start countdown
+        setTimerActive(true); // activate timer
+    }, []);
     return (
         <View style={{ flex: 1, backgroundColor: Colors.backgroundColor }}>
             <AuthenticationTopView
@@ -112,8 +157,8 @@ export default function Verification({ route }: { route: VerificationRouteProp }
                         Code
                     </Text>
                     <View style={{ flexDirection: "row", gap: 2 }}>
-                        <TouchableOpacity disabled={secondsLeft > 0}
-                            onPress={sendOTP}>
+                        <TouchableOpacity disabled={secondsLeft > 0 || loading}
+                                    onPress={() => sendOTP()}>
                             <Text style={{ fontSize: 14, fontWeight: "400", color: Colors.boldGrey, textDecorationLine: "underline" }}>
                                 Resend
                             </Text>

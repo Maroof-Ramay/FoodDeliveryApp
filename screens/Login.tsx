@@ -10,6 +10,8 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../screens/navigation/MainNavigator";
 
+import { BASE_URL } from "./config/Api";
+
 export default function Login() {
 
     const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
@@ -33,7 +35,7 @@ export default function Login() {
         setErrorMsg("");
 
         try {
-            const response = await fetch("http://192.168.13.101:3000/login", {
+            const response = await fetch(`${BASE_URL}/login`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
